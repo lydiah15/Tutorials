@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Information</title>
+</head>
+<body>
+<form method="get" action="StudentServlet"> 
+Student Form : <input type="radio" name="r1" value="ID"/>ID
+<input type="radio" name="r1" value="Name"/>NAME
+<input type="radio" name="r1" value="Education"/>EDUCATION<br>
+
+Select Gender :
+<select name="tf1">
+	<option value="---">---</option>
+	<option value="All">ALL</option>
+	<option value="Male">MALE</option>
+	<option value="Female">FEMALE</option>	
+</select><br>
+Select City :
+<input type="checkbox" name="c1" value= "Portland" />PORTLAND
+<input type="checkbox" name="c2" value= "New Orleans" />NEW ORLEANS
+<input type="checkbox" name="c3" value= "Miami" />MIAMI
+<input type="checkbox" name="c4" value= "New York" />NEW YORK
+<input type="submit" name="b1" value= "DISPLAY" />
+</form>
+</body>
+</html>
